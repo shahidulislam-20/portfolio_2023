@@ -5,7 +5,6 @@ import 'swiper/css';
 import { Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import { FaAngleRight, FaArrowRight } from "react-icons/fa6";
 
 const ProjectDetails = () => {
 
@@ -28,11 +27,11 @@ const ProjectDetails = () => {
             <div className="bg-bg-prime py-20">
                 <h2 className="font-bold text-5xl text-center text-white uppercase">Portfolio Details</h2>
             </div>
-            <div className="max-w-7xl mx-auto py-28">
+            <div className="max-w-4xl mx-auto py-28 text-center">
                 {
                     RemainData.map((data, index) => <div
                         key={index}
-                        className="grid lg:grid-cols-2 grid-cols-1 lg:px-0 px-5 gap-20"
+                        className=""
                     >
                         <div>
                             <Swiper
@@ -60,29 +59,13 @@ const ProjectDetails = () => {
                                     data.img.map((im, ind) => <SwiperSlide
                                         key={ind}
                                     >
-                                        <img className="h-[40rem] w-full" src={im} alt="" />
+                                        <img className="h-full w-full" src={im} alt="" />
                                     </SwiperSlide>)
                                 }
-                                {/* <SwiperSlide>Slide 1</SwiperSlide>
-                                <SwiperSlide>Slide 2</SwiperSlide>
-                                <SwiperSlide>Slide 3</SwiperSlide>
-                                <SwiperSlide>Slide 4</SwiperSlide> */}
-                                ...
                             </Swiper>
                         </div>
-                        <div>
-                            <h3 className="font-bold text-3xl ">{data.name}</h3>
-                            <div className="mt-5">
-                                <h3 className="font-semibold">Features :</h3>
-                                <h4>{data.features.map((data, i) => <p key={i} className="flex items-center"><FaAngleRight></FaAngleRight> {data}</p>)}</h4>
-                            </div>
-                            <div className="mt-5">
-                                <h3 className="font-semibold">Technologies</h3>
-                                <p className="flex items-center"><FaArrowRight></FaArrowRight> <span>Frontend : </span>{data.technologies.Frontend}</p>
-                                <p className="flex items-center"><FaArrowRight></FaArrowRight> <span>Backend : </span>{data.technologies.Backend}</p>
-                                <p className="flex items-center"><FaArrowRight></FaArrowRight> <span>Database : </span>{data.technologies.Database}</p>
-                                <p className="flex items-center"><FaArrowRight></FaArrowRight> <span>Additional Tools : </span>{data.technologies.Additional_Tools}</p>
-                            </div>
+                        <div className="">
+                            <h3 className="font-bold text-3xl mt-20">{data.name}</h3>
                             <div className="mt-5">
                                 <h4>Live Website Link : <a className="text-text-prime" href={data.live}>{data.live}</a></h4>
                                 <h4>View Source Code on Github : <a className="text-text-prime" href={data.github}>{data.github}</a></h4>

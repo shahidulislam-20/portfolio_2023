@@ -1,82 +1,30 @@
 [
     {
         "id": "1",
-        "live": "https://shebadc-775ee.web.app",
-        "github": "https://github.com/shahidulislam-20/sheba-diagnostic-center",
-        "name": "Diagnostic Center",
-        "img": ["https://i.ibb.co/c67fJcK/01.png","https://i.ibb.co/Z8jtxmQ/02.png","https://i.ibb.co/7tTS6mY/03.png"],
-        "features": [
-            "Appointment Scheduling",
-            "Test Results Access",
-            "Online Bill Payment",
-            "Patient Information Management"
-        ],
-        "technologies": {
-            "Frontend": "React.js",
-            "Backend": "Node.js (Express)",
-            "Database": "MongoDB",
-            "Additional_Tools": "Redux for state management"
-        },
-        "description": "The Diagnostic Center website revolutionizes healthcare accessibility through advanced technological solutions. Patients can seamlessly schedule appointments, access their test results securely, and conveniently handle online bill payments. The user interface, powered by React.js, ensures an intuitive experience. The backend, driven by Node.js and Express, manages the intricate server-side operations, while MongoDB efficiently handles the storage of patient information. The incorporation of Redux enhances the website's performance by optimizing state management, contributing to a reliable and efficient healthcare platform."
+        "live": "https://shahidulislam-20.github.io/glozzom/index.html",
+        "github": "https://github.com/shahidulislam-20/glozzom",
+        "name": "Glozzom",
+        "img": ["https://i.ibb.co/qjWGJzZ/glozzom1.png","https://i.ibb.co/qCSQSvQ/glozzom2.png"]
     },
     {
         "id": "2",
-        "live": "https://bistro-boss-8fbb1.web.app",
-        "github": "https://github.com/shahidulislam-20/sheba-diagnostic-center",
-        "name": "Restaurant",
-        "img": ["https://i.ibb.co/0J5MYVD/01.png","https://i.ibb.co/D5xsGy5/02.png","https://i.ibb.co/JzM3vCF/03.png"],
-        "features": [
-            "Menu Display",
-            "Online Ordering",
-            "Table Reservation",
-            "Customer Reviews"
-        ],
-        "technologies": {
-            "Frontend": "React.js",
-            "Backend": "Node.js (Express)",
-            "Database": "MongoDB",
-            "Additional_Tools": "Payment Gateway Integration"
-        },
-        "description": "The Restaurant website redefines the dining experience by leveraging cutting-edge technologies. Built on React.js, the frontend offers an engaging and interactive menu display, coupled with features like online ordering, table reservations, and customer reviews. The backend, supported by Node.js and Express, seamlessly processes orders and reservations, while MongoDB efficiently manages the restaurant's data. The integration of payment gateways ensures secure and hassle-free transactions, adding a layer of convenience for customers exploring the culinary offerings."
+        "live": "https://shahidulislam-20.github.io/mizuxe",
+        "github": "https://github.com/shahidulislam-20/mizuxe",
+        "name": "Mizuxe",
+        "img": ["https://i.ibb.co/5nPssVP/mizuxe1.png","https://i.ibb.co/0CjZg5B/mizuxe2.png"]
     },
     {
         "id": "3",
-        "live": "https://car-doctor-76f55.web.app",
-        "github": "https://github.com/shahidulislam-20/sheba-diagnostic-center",
-        "name": "Automobile Shop",
-        "img": ["https://i.ibb.co/dbWK41s/01.png","https://i.ibb.co/SskhVXc/02.png"],
-        "features": [
-            "Product Catalog",
-            "Service Booking",
-            "Inventory Management",
-            "Customer Feedback"
-        ],
-        "technologies": {
-            "Frontend": "React.js",
-            "Backend": "Node.js (Express)",
-            "Database": "MongoDB",
-            "Additional_Tools": "Integration with Auto Parts API"
-        },
-        "description": "The Automobile Shop website caters to automotive enthusiasts with a comprehensive platform. Using React.js for the frontend and Node.js with Express for the backend, the website facilitates product catalog browsing, service bookings, and inventory management. MongoDB ensures efficient data storage, while integration with external APIs enhances the product catalog with real-time information about auto parts. The platform offers a seamless user experience, combining sophisticated technology and automotive expertise to create a dynamic online hub for all things automobile-related."
+        "live": "https://shahidulislam-20.github.io/quotes",
+        "github": "https://github.com/shahidulislam-20/quotes",
+        "name": "Quotes",
+        "img": ["https://i.ibb.co/Z8QwfHG/quotes1.png","https://i.ibb.co/6WWJLN8/quotes2.png"]
     },
     {
         "id": "4",
-        "live": "https://careerfy-5b523.web.app",
-        "github": "https://github.com/shahidulislam-20/careerfy",
-        "name": "Job Hunting Website",
-        "img":["https://i.ibb.co/kBNrjnV/01.png","https://i.ibb.co/T1z832s/02.png","https://i.ibb.co/BnP5S35/03.png"],
-        "features": [
-            "Job Search and Filtering",
-            "Resume Upload",
-            "Application Tracking",
-            "Company Profiles"
-        ],
-        "technologies": {
-            "Frontend": "React.js",
-            "Backend": "Node.js (Express)",
-            "Database": "MongoDB",
-            "Additional_Tools": "User Authentication (JWT)"
-        },
-        "description": "Addressing the dynamic job market, the Job Hunting Website provides a user-friendly platform for job seekers and employers alike. The React.js frontend offers an intuitive job search, resume uploads, and application tracking. The Node.js backend, coupled with MongoDB, ensures robust data management and security. User authentication using JWT enhances the safety of the job-seeking process. This platform stands at the intersection of technology and employment, streamlining the job search process and fostering connections between job seekers and employers."
+        "live": "https://shahidulislam-20.github.io/unfold",
+        "github": "https://github.com/shahidulislam-20/unfold",
+        "name": "Portfolio",
+        "img":["https://i.ibb.co/vjnfVgn/unfold1.png","https://i.ibb.co/zPN9ssN/unfold2.png"]
     }
 ]
